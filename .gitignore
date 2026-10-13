@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local settings
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Build outputs
+build/
+dist/
+
+# Keep downloaded/private datasets out of Git; the small demo catalog is packaged.
+data/
+*.parquet
